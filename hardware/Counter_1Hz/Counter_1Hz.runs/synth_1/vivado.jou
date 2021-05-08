@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 29 18:02:44 2021
+# Process ID: 10708
+# Current directory: C:/Users/danie/Documents/CR/PRATICAL/Counter_1Hz/Counter_1Hz.runs/synth_1
+# Command line: vivado.exe -log Counter_1Hz_tl_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Counter_1Hz_tl_4.tcl
+# Log file: C:/Users/danie/Documents/CR/PRATICAL/Counter_1Hz/Counter_1Hz.runs/synth_1/Counter_1Hz_tl_4.vds
+# Journal file: C:/Users/danie/Documents/CR/PRATICAL/Counter_1Hz/Counter_1Hz.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Counter_1Hz_tl_4.tcl -notrace

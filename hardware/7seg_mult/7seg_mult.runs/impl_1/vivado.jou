@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 14 09:13:11 2021
+# Process ID: 8120
+# Current directory: C:/Users/danie/Documents/CR/PRATICAL/7seg_mult/7seg_mult.runs/impl_1
+# Command line: vivado.exe -log TP3_P2_tl.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TP3_P2_tl.tcl -notrace
+# Log file: C:/Users/danie/Documents/CR/PRATICAL/7seg_mult/7seg_mult.runs/impl_1/TP3_P2_tl.vdi
+# Journal file: C:/Users/danie/Documents/CR/PRATICAL/7seg_mult/7seg_mult.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source TP3_P2_tl.tcl -notrace

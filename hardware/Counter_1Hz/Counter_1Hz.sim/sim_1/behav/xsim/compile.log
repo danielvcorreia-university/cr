@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/danie/Documents/CR/PRATICAL/Counter_1Hz/Counter_1Hz.srcs/sources_1/new/Counter_4b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Counter_4b'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/danie/Documents/CR/PRATICAL/Counter_1Hz/Counter_1Hz.srcs/sources_1/new/pulse_generator_1Hz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pulse_generator_1Hz'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/danie/Documents/CR/PRATICAL/Counter_1Hz/Counter_1Hz.srcs/sources_1/new/Counter_1Hz_tl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Counter_1Hz_tl'

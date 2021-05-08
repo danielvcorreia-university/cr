@@ -1,0 +1,17 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 4dc4b33dba6e4c948844e4bc4660cd5f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Counter_1Hz_tl_behav xil_defaultlib.Counter_1Hz_tl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.pulse_generator_1Hz [pulse_generator_1hz_default]
+Compiling architecture behavioral of entity xil_defaultlib.Counter_4b [counter_4b_default]
+Compiling architecture structure of entity xil_defaultlib.counter_1hz_tl
+Built simulation snapshot Counter_1Hz_tl_behav

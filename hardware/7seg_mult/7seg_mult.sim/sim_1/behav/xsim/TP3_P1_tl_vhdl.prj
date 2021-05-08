@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../7seg_mult.srcs/sources_1/new/Counter_7seg.vhd" \
+"../../../../7seg_mult.srcs/sources_1/new/Nexys4DispDriver.vhd" \
+"../../../../7seg_mult.srcs/sources_1/new/clk_div_with_pulse.vhd" \
+"../../../../7seg_mult.srcs/sources_1/new/TP3_P1_tl.vhd" \
+
+# Do not sort compile order
+nosort
