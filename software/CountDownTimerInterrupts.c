@@ -432,6 +432,8 @@ void TimerIntCallbackHandler(void* callbackParam)
 	// Put here operations that must be performed at 800Hz rate
 	// Refresh displays
     RefreshDisplays(digitEnables, digitValues, decPtEnables);
+    // DigitValues - array holding display digits
+    TimerValue2DigitValues(&timerValue, digitValues);
 
 
 	if (hwTmrEventCount % 100 == 0) // 8Hz
@@ -612,7 +614,9 @@ int main()
 	while (1)
 	{
 		// Put here operations that are performed whenever possible
-		XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR, XGPIO_DATA_OFFSET, zeroFlag ? 0x0001 : 0x0000); // Turn on the led when Timer ended
+		zeroFlag = IsTimerValueZero(&timerValue);
+		// Turn on the led when Timer ended
+		XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR, XGPIO_DATA_OFFSET, zeroFlag ? 0x0001 : 0x0000);
 
 		//Demonstration purposes
 		xil_printf("\r%d%d:%d%d", timerValue.minMSValue, timerValue.minLSValue, timerValue.secMSValue, timerValue.secLSValue);
