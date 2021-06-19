@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER CustomDisplays
+	OPTION supported_peripherals = (CustomDisplays);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = CustomDisplays;
+END DRIVER
